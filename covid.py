@@ -45,9 +45,9 @@ def predict_covid(data:Covid):
     
     prediction = classifier.predict(data)
     if(prediction[0]>0.5):
-        prediction="YOU have Chances of disease"   
+        prediction="You have high chances of suffering from Covid"   
     else:
-        prediction="NO chances of getting disease"
+        prediction="N0 chances of suffering from Covid"
     return {'prediction': prediction}
 
         
