@@ -47,7 +47,7 @@ def predict_covid(data:Covid):
     if(prediction[0]>0.5):
         prediction="You have high chances of suffering from Covid"   
     else:
-        prediction="N0 chances of suffering from Covid"
+        prediction="Rare chance of suffering from Covid"
     return {'prediction': prediction}
 
         
